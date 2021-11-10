@@ -1,11 +1,78 @@
 body {
-    justify-content: center;
-    background-color: bisque;
-    color: coral;
-    margin-left: 5%;
-    margin-top: 5%;
+  justify-content: center;
+  background-color: bisque;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  color: coral;
+  margin-left: 5%;
+  margin-top: 5%;
 }
 
+.pageTitle {
+  opacity: 40%;
+  padding-left: 30vw;
+}
+
+.beyonceName {
+  color: sienna;
+  margin-left: 30vw;
+}
+
+.nav {
+  width: 80vw;
+  height: 5vh;
+  margin-left: 5vw;
+  padding-left: 2vw;
+  border: solid 1px sienna;
+  justify-content: space-between;
+}
+.display {
+  margin-left: 5vw;
+  width: 80vw;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+  color: sienna;
+}
+
+/* visited link */
+a:visited {
+  color: maroon;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: red;
+}
 #grammys {
-    height: 500px;
+  height: 500px;
+  margin-left: 15vw;
+}
+
+.aboutColumn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutColumnOne {
+  padding-left: 5vw;
+}
+
+.aboutColumnTwo {
+  width: 40vw;
+  justify-content: safe;
+}
+
+.videoBox {
+  margin-left: 8vw;
 }
